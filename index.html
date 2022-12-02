@@ -8,6 +8,28 @@
 <link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<meta charset="utf-8">
+<title>FreeFolio - Freelancer Portfolio Template</title>
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<meta content="Free HTML Templates" name="keywords">
+<meta content="Free HTML Templates" name="description">
+
+<!-- Favicon -->
+<link href="img/favicon.ico" rel="icon">
+
+<!-- Google Web Fonts -->
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet"> 
+
+<!-- Font Awesome -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+<!-- Libraries Stylesheet -->
+<link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+<link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+<!-- Customized Bootstrap Stylesheet -->
+<link href="css/style.css" rel="stylesheet">
 <style>
 
 
@@ -61,26 +83,44 @@ h3
   }
 </style>
 </head>
+
+
+
 <body>
 
+  <div class="container-fluid bg-dark d-flex align-items-center mb-5 py-5" id="home" style="min-height: 100vh;">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-5 px-5 pl-lg-0 pb-5 pb-lg-0">
+                <img class="img-fluid w-100 rounded-circle shadow-sm" src="IMG_5663.jpg">
+            </div>
+            <div class="col-lg-7 text-center text-lg-left">
+                <h3 class="display-5 text-uppercase text-light mb-2" style="-webkit-text-stroke: 2px #dfe8e8;">I'm</h3>
+                <h1 class="display-3 text-uppercase text-light mb-2" style="-webkit-text-stroke: 2px #dfe8e8;">Tanay Dulipala</h1>
+                <h1 class="typed-text-output d-inline font-weight-lighter text-white"></h1>
+                <p class="line-1 anim-typewriter text-white">Software Engineer/UI Developer</p>
+            </div>
+        </div>
+    </div>
+</div>
 
 <!-- Navbar (sit on top) -->
 <div class="w3-top">
   <div class="w3-bar" id="myNavbar">
-    <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+    <a class="w3-bar-item w3-button w3-hover-white w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
       <i class="fa fa-bars"></i>
     </a>
-    <a href="#home" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-home"></i> Home</a>
-    <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> About Me</a>
-    <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> My Work</a>
-    <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> Contact</a>
+    <a href="#home" class="w3-bar-item w3-button w3-text-gray w3-hide-small"><i class="fa fa-home"></i> Home</a>
+    <a href="#about" class="w3-bar-item w3-button w3-text-gray w3-hide-small"><i class="fa fa-user"></i> About Me</a>
+    <a href="#portfolio" class="w3-bar-item w3-button w3-text-gray w3-hide-small"><i class="fa fa-th"></i> My Work</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-text-gray w3-hide-small"><i class="fa fa-envelope"></i> Contact</a>
     <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
       <i class="fa fa-search"></i>
     </a>
   </div>
 
   <!-- Navbar on small screens -->
-  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+  <div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium">
     <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">About Me</a>
     <a href="#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()">My Work</a>
     <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">Contacts</a>
